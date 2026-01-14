@@ -28,7 +28,7 @@ async function loadFacts() {
   } catch (error) {
     console.error("Error loading Google Sheet:", error);
     document.getElementById("tdic-title").textContent =
-      "Corruption takes a holiday.";
+      "Unable to load today's entry.";
   }
 }
 
@@ -49,10 +49,10 @@ function displayFact(facts) {
     dateEl.textContent = `${mm}/${dd}${fact.year ? " • " + fact.year : ""}`;
     contentEl.textContent = fact.content;
   } else {
-    titleEl.textContent = "No entry for today yet.";
+    titleEl.textContent = "Corruption takes a holiday!";
     dateEl.textContent = `${mm}/${dd}`;
     contentEl.textContent =
-      "Check back soon as we continue building our archive.";
+      "";
   }
   console.log(facts);
 }
