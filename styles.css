@@ -6,6 +6,11 @@ body {
     sans-serif;
   color: #202020;
 }
+.tdic-container{
+    width: 100%;
+
+  height: 100%; 
+}
 
 .tdic-card {
   width: 100%;
