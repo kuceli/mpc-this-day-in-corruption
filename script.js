@@ -28,7 +28,7 @@ async function loadFacts() {
   } catch (error) {
     console.error("Error loading Google Sheet:", error);
     document.getElementById("tdic-title").textContent =
-      "Unable to load today's entry.";
+      "Corruption takes a holiday.";
   }
 }
 
