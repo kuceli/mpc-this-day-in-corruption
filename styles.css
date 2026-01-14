@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #202020;
+}
+.tdic-card {
+  width: 100%;
+  max-width: 530px;
+  height: 360px; /* adjust as needed */
+  margin: 0 auto;
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+  background-image: url("images/img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+}
+
+.tdic-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* dark tint for readability */
+}
+
+.tdic-body {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.tdic-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tdic-date {
+  display: none; /* keep hidden unless you want it */
+}
+
+.tdic-content {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+}
