@@ -6,16 +6,10 @@ body {
     sans-serif;
   color: #202020;
 }
-.tdic-container{
-  width: 100%;
-  background-image: url("images/img2.png");
-  height: 360px; 
-}
-
 .tdic-card {
-  width: 90%;
+  width: 100%;
   max-width: 530px;
-  height: 100%; 
+  height: 360px;  
   margin: 0 auto;
   /* border-radius: 14px; */
   overflow: hidden;
