@@ -6,6 +6,10 @@ body {
     sans-serif;
   color: #202020;
 }
+
+tdic-container{
+  background-image: url("https://copilot.microsoft.com/shares/wJFLLfFhLXvrZvBfLRnvH");
+}  
 .tdic-card {
   width: 100%;
   max-width: 530px;
