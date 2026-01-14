@@ -9,6 +9,9 @@ body {
 
 tdic-container{
   background-image: url("https://copilot.microsoft.com/shares/wJFLLfFhLXvrZvBfLRnvH");
+  width: 100%;
+  height: 360px;
+  padding: 30px;
 }  
 .tdic-card {
   width: 100%;
