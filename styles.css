@@ -11,7 +11,7 @@ body {
   max-width: 530px;
   height: 360px; 
   margin: 0 auto;
-  border-radius: 14px;
+  /* border-radius: 14px; */
   overflow: hidden;
   position: relative;
   background-image: url("images/img.png");
