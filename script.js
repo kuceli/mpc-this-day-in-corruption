@@ -49,10 +49,10 @@ function displayFact(facts) {
     dateEl.textContent = `${mm}/${dd}${fact.year ? " • " + fact.year : ""}`;
     contentEl.textContent = fact.content;
   } else {
-    titleEl.textContent = "Corruption takes a holiday!";
+    titleEl.textContent = "On this day in corruption history,";
     dateEl.textContent = `${mm}/${dd}`;
     contentEl.textContent =
-      "";
+      "Corruption takes a holiday!";
   }
   console.log(facts);
 }
